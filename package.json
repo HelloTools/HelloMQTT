@@ -2,21 +2,21 @@
   "name": "hellomqtt",
   "version": "1.0.0",
   "description": "A MQTT Client based on Electron.",
-  "main": "index.js",
+  "main": "app/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron ."
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/HelloTools/HelloMQTT.git"
   },
   "author": "EthsonLiu",
-  "license": "GPL-3.0",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/HelloTools/HelloMQTT/issues"
   },
   "homepage": "https://github.com/HelloTools/HelloMQTT#readme",
   "devDependencies": {
-    "electron": "^10.1.5"
+    "electron": "^11.0.3"
   }
 }
